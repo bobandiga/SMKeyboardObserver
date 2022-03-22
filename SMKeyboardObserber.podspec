@@ -9,34 +9,31 @@
 Pod::Spec.new do |s|
   s.name             = 'SMKeyboardObserber'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SMKeyboardObserber.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.summary          = 'Keyboard observer for UIKit app.'
+  s.description      = 'Keyboard observer for UIKit app.'
   s.homepage         = 'https://github.com/bobandiga/SMKeyboardObserber'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'bobandiga' => 'ext.mshaptala@tinkoff.ru' }
+  s.author           = { 'bobandiga' => 'shmx.dev@gmail.com' }
   s.source           = { :git => 'https://github.com/bobandiga/SMKeyboardObserber.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'SMKeyboardObserber/Classes/**/*'
-  
+  s.source_files = 'SMKeyboardObserber/Sources/**/*'
   # s.resource_bundles = {
   #   'SMKeyboardObserber' => ['SMKeyboardObserber/Assets/*.png']
   # }
+  s.frameworks = 'UIKit'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # TEST SPEC
+  s.test_spec 'Tests' do |ts|
+    ts.requires_app_host = true
+    # ts.app_host_name = 'SMEMBUnitTests/AppHost'
+
+    ts.source_files = "#{s.name}/Tests/**/*.swift"
+
+    # ts.resources = "#{s.name}/Tests/Resources/Stubs/**/*.{json,png}"
+
+    # Dependecies
+    # ts.dependecy 'Some', ~> 'x.y.z'
+  end
 end

@@ -1,0 +1,18 @@
+PODS:
+  - SMKeyboardObserber (0.1.0)
+  - SMKeyboardObserber/Tests (0.1.0)
+
+DEPENDENCIES:
+  - SMKeyboardObserber (from `../`)
+  - SMKeyboardObserber/Tests (from `../`)
+
+EXTERNAL SOURCES:
+  SMKeyboardObserber:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SMKeyboardObserber: 7051ca4d4bd444bcff36eec70f33f16d02b719ff
+
+PODFILE CHECKSUM: 2a82e9b5ef0a0317d33d61a492cd72b61301c25a
+
+COCOAPODS: 1.11.2

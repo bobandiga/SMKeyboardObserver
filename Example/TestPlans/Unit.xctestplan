@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "43A5FD8C-ABC1-41BC-84CD-284D6EB6AB97",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SMKeyboardObserber.xcodeproj",
+      "identifier" : "607FACCF1AFB9204008FA782",
+      "name" : "SMKeyboardObserber_Example"
+    },
+    "testTimeoutsEnabled" : true,
+    "uiTestingScreenshotsLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Pods\/Pods.xcodeproj",
+        "identifier" : "0C73120A3FECC664763606EAD0EF8C5D",
+        "name" : "SMKeyboardObserber-Unit-Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
