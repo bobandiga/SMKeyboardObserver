@@ -19,5 +19,6 @@ let package = Package(
             name: "SMKeyboardObserberTests",
             dependencies: ["SMKeyboardObserber"],
             path: "SMKeyboardObserber/Tests")
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
