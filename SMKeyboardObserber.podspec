@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMKeyboardObserber'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Keyboard observer for UIKit app.'
   s.description      = 'Keyboard observer for UIKit app.'
   s.homepage         = 'https://github.com/bobandiga/SMKeyboardObserber'

@@ -1,6 +1,6 @@
 PODS:
-  - SMKeyboardObserber (0.1.0)
-  - SMKeyboardObserber/Tests (0.1.0)
+  - SMKeyboardObserber (1.0.0)
+  - SMKeyboardObserber/Tests (1.0.0)
 
 DEPENDENCIES:
   - SMKeyboardObserber (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SMKeyboardObserber: a865d8f3cb8f2c932ea9330b019b51b5cd07496d
+  SMKeyboardObserber: f1e7e76ef11402ca65036edb6075c7cb1901c1b1
 
 PODFILE CHECKSUM: 2a82e9b5ef0a0317d33d61a492cd72b61301c25a
 
