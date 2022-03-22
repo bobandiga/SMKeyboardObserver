@@ -27,7 +27,7 @@
 		A6AF78BCBD81403FEE971362 /* Pods-SMKeyboardObserber_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMKeyboardObserber_Example.release.xcconfig"; path = "Target Support Files/Pods-SMKeyboardObserber_Example/Pods-SMKeyboardObserber_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ADB0571ECF81803D564F98E8 /* Pods_SMKeyboardObserber_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMKeyboardObserber_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E39AC127E8AD970087F5AE /* Unit.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Unit.xctestplan; sourceTree = "<group>"; };
-		C5B83F16B552B5A12A6CDF34 /* SMKeyboardObserber.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMKeyboardObserber.podspec; path = ../SMKeyboardObserber.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5B83F16B552B5A12A6CDF34 /* SMKeyboardObserber.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMKeyboardObserber.podspec; path = ../SMKeyboardObserber.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
