@@ -136,11 +136,11 @@ public final class SMKeyboardObserver: SMKeyboardObserverProtocol {
         guard let info = notification.userInfo else { return nil }
 
         guard
-            let beginFrame = info[UIKeyboardFrameBeginUserInfoKey] as? CGRect,
-            let endFrame = info[UIKeyboardFrameEndUserInfoKey] as? CGRect,
-            let animationDuration = info[UIKeyboardAnimationDurationUserInfoKey] as? TimeInterval,
-            let rawCurve = info[UIKeyboardAnimationCurveUserInfoKey] as? Int,
-            let isLocal = info[UIKeyboardIsLocalUserInfoKey] as? Bool
+            let beginFrame = info[UIResponder.keyboardFrameBeginUserInfoKey] as? CGRect,
+            let endFrame = info[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect,
+            let animationDuration = info[UIResponder.keyboardAnimationDurationUserInfoKey] as? TimeInterval,
+            let rawCurve = info[UIResponder.keyboardAnimationCurveUserInfoKey] as? Int,
+            let isLocal = info[UIResponder.keyboardIsLocalUserInfoKey] as? Bool
         else {
             return nil
         }

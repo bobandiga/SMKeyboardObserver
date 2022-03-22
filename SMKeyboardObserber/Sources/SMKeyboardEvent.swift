@@ -21,17 +21,17 @@ extension SMKeyboardEvent {
     var notificationName: Notification.Name {
         switch self {
             case .willShow:
-                return .UIKeyboardWillShow
+                return UIResponder.keyboardWillShowNotification
             case .didShow:
-                return .UIKeyboardDidShow
+                return UIResponder.keyboardDidShowNotification
             case .willHide:
-                return .UIKeyboardWillHide
+                return UIResponder.keyboardWillHideNotification
             case .didHide:
-                return .UIKeyboardDidHide
+                return UIResponder.keyboardDidHideNotification
             case .willChangeFrame:
-                return .UIKeyboardWillChangeFrame
+                return UIResponder.keyboardWillChangeFrameNotification
             case .didChangeFrame:
-                return .UIKeyboardDidChangeFrame
+                return UIResponder.keyboardDidChangeFrameNotification
         }
     }
 }

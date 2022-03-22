@@ -18,15 +18,15 @@ public struct SMKeyboardInfo {
 
 // MARK: UIViewAnimationCurve
 public extension SMKeyboardInfo {
-    var animationCurve: UIViewAnimationCurve? {
-        return UIViewAnimationCurve(rawValue: rawCurve)
+    var animationCurve: UIView.AnimationCurve? {
+        return UIView.AnimationCurve(rawValue: rawCurve)
     }
 }
 
 
 // MARK: UIViewAnimationOptions
 public extension SMKeyboardInfo {
-    var animationOptions: UIViewAnimationOptions {
-        return UIViewAnimationOptions(rawValue: UInt(rawCurve))
+    var animationOptions: UIView.AnimationOptions {
+        return UIView.AnimationOptions(rawValue: UInt(rawCurve))
     }
 }

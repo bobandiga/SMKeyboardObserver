@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SMKeyboardObserber: 7051ca4d4bd444bcff36eec70f33f16d02b719ff
+  SMKeyboardObserber: a865d8f3cb8f2c932ea9330b019b51b5cd07496d
 
 PODFILE CHECKSUM: 2a82e9b5ef0a0317d33d61a492cd72b61301c25a
 
