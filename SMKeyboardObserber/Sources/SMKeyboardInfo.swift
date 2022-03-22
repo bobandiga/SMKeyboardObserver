@@ -5,7 +5,7 @@
 //  Created by Максим Шаптала on 21.03.2022.
 //
 
-import Foundation
+import UIKit
 
 public struct SMKeyboardInfo {
     public let beginFrame: CGRect
