@@ -9,7 +9,6 @@ import UIKit
 
 public typealias SMKeyboardHandler = (SMKeyboardEvent, SMKeyboardInfo) -> Void
 
-
 public protocol SMKeyboardObserverProtocol {
     var isEnabled: Bool { get set }
     func onKeyboard(events: SMKeyboardEvent..., handler: @escaping SMKeyboardHandler)

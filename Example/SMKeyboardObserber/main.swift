@@ -7,3 +7,18 @@
 //
 
 import Foundation
+import UIKit
+
+final class Application: UIApplication {
+
+    override func sendEvent(_ event: UIEvent) {
+        super.sendEvent(event)
+
+        print(event)
+    }
+}
+
+let argc = CommandLine.argc
+let argv = CommandLine.unsafeArgv
+
+_ = UIApplicationMain(argc, argv, NSStringFromClass(Application.self), NSStringFromClass(AppDelegate.self))
